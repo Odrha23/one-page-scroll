@@ -1,0 +1,54 @@
+# one-page-scroll
+Animasi ketika halaman website di scroll akan tampil satu halaman penuh
+
+<style>
+	h1{
+		font-size: 5em;
+		font-family: arial,helvetica;
+		color: #fff;
+		margin:0;
+		padding:40px 0 0 0;
+	}
+	.intro p{
+		color: #fff;
+		padding:40px 0 0 0;
+	}
+	.section{
+		text-align:center;
+	}
+</style>
+
+<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
+				sectionsColor: ['#4A6FB1', '#939FAA', '#323539'],
+                navigation:true
+			});
+		});
+</script>
+
+<div class="section" id="section1">
+		<div class="intro">
+			<h1>No limitations!</h1>
+			<p>Content is a priority. Even if it is so large :)</p>
+		</div>
+</div>
+<div class="section" id="section1">
+	  <div class="slide" id="slide1">
+			<div class="intro">
+				<h1>Also in sections slide 1</h1>
+      </div>
+    </div>
+    	  <div class="slide" id="slide2">
+			<div class="intro">
+				<h1>Also in sections slide 2</h1>
+      </div>
+    </div>
+</div>
+<div class="section" id="section1">
+		<div class="intro">
+			<h1>No limitations!</h1>
+			<p>Content is a priority. Even if it is so large :)</p>
+		</div>
+</div>
