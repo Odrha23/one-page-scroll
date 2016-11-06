@@ -1,6 +1,9 @@
 # one-page-scroll
 Animasi ketika halaman website di scroll akan tampil satu halaman penuh
 
+https://cdn.rawgit.com/Odrha23/one-page-scroll/master/one-page-scroll.css
+https://cdn.rawgit.com/Odrha23/one-page-scroll/master/one-page-scroll.js
+
 <style>
 	h1{
 		font-size: 5em;
